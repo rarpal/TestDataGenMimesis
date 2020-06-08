@@ -1,0 +1,1 @@
+{"id":{"provider":"uuid","kwargs":{}},"actdate":{"provider":"datetime.date","kwargs":{"start":2017,"end":2018}},"owner":{"email":{"provider":"person.email","kwargs":{}},"creator":{"provider":"full_name","kwargs":{}},"modifier":{"provider":"full_name","kwargs":{}}}}

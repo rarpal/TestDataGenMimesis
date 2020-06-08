@@ -1,0 +1,7 @@
+{
+	"id":{"provider":"uuid","kwargs":{}},
+    "guestid":{"provider":"numbers.between","kwargs":{"minimum":10001,"maximum":10011}},
+    "brandid":{"provider":"numbers.between","kwargs":{"minimum":15,"maximum":15}},
+    "dinedate":{"provider":"datetime.date","kwargs":{"start":2017,"end":2018}},
+    "covers":{"provider":"numbers.between","kwargs":{"minimum":1,"maximum":5}}
+}
