@@ -28,7 +28,7 @@ if __name__ == "__main__":
     parser.add_argument("schm", metavar="<Schema Fle>", help="fully qualified schema file in json format", type=str)
     parser.add_argument("datf", metavar="<Data File>", help="fully qualified output test data file", type=str)
     parser.add_argument("fmat", metavar="<Format>", help="output test data file format as csv, json or xml", choices=['csv','json','xml'], type=str)
-    parser.add_argument("-rows", metavar="<Number of rows>", help="Number of test data rows to generate", type=int, default=10)
+    parser.add_argument("-rows", metavar="<Number of rows>", help="Number of test data rows to generate (defaults to 10)", type=int, default=10)
     args = parser.parse_args()
 
     main(args)
