@@ -8,9 +8,11 @@ def main(args):
     with open(args.schm, encoding='utf-8') as fp:
         insch = json.loads(fp.read())
 
-    """ tdat = pdf()
+    """ 
+    tdat = pdf()
     for r in range(args.rows):
-        tdat = tdat.append(dict(map(lambda l: schflds(l), insch.items())), ignore_index=True) """
+        tdat = tdat.append(dict(map(lambda l: schflds(l), insch.items())), ignore_index=True) 
+    """
 
     tdat = [dict(map(lambda l: generators.schflds(l), insch.items())) for r in range(args.rows)]
 
